@@ -1,4 +1,4 @@
-package com.sicat.song;
+package com.david.song;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

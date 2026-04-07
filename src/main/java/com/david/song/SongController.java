@@ -1,4 +1,4 @@
-package com.sicat.song;
+package com.david.song;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Controller
-@RequestMapping(path="/sicat/songs")
+@RequestMapping(path="/david/songs")
 public class SongController {
     @Autowired
     private SongRepository songRepository;
@@ -20,7 +20,7 @@ public class SongController {
     public ResponseEntity<Song> createSong(@RequestBody Song song) throws URISyntaxException {
         Song savedSong = songRepository.save(song);
         return ResponseEntity.ok()
-                .location(new URI("/sicat/songs/" + savedSong.getId()))
+                .location(new URI("/david/songs/" + savedSong.getId()))
                 .body(savedSong);
     }
 

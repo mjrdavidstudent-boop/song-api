@@ -1,4 +1,4 @@
-package com.sicat.song;
+package com.david.song;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

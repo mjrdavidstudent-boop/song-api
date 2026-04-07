@@ -1,4 +1,4 @@
-package com.sicat.song;
+package com.david.song;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
