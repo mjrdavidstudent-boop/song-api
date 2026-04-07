@@ -30,3 +30,5 @@ services:
         fromDatabase:
           name: song-api-db
           property: password
+      - key: DDL_AUTO
+        value: none
