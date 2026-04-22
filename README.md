@@ -20,7 +20,6 @@ Steps:
 Important:
 - If your GitHub repository has this project inside a subfolder, set Render service `Root Directory` to that subfolder.
 - `render.yaml` and `Dockerfile` must be visible from the selected root directory.
-
 No manual DB env vars are needed with the blueprint because `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USERNAME`, and `DB_PASSWORD` are injected automatically.
 
 ## 3) If you deploy manually (without blueprint)
