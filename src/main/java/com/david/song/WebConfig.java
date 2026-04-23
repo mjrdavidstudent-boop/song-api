@@ -12,7 +12,7 @@ public class WebConfig {
     @Bean
     public WebMvcConfigurer corsConfigurer() {
         return new WebMvcConfigurer() {
-            @Value("${ALLOWED_ORIGINS:http://localhost:5173}")
+            @Value("${ALLOWED_ORIGINS:http://localhost:5173,https://song-ui-ljhd.onrender.com,http://localhost:3000,http://127.0.0.1:5173}")
             private String allowedOrigins;
             @Override
             public void addCorsMappings(CorsRegistry registry) {
